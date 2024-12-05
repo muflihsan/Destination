@@ -1,0 +1,61 @@
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.table-dark {
+    background-color: #333 !important;
+    color: #ffffff !important;
+}
+
+.table-dark td, .table-dark th {
+    color: #ffffff !important;
+}
+
+.bg-primary {
+    background-color: #0d6efd !important;
+}
+
+body.dark-mode .table {
+    background-color: #4e4e4e !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode #exampleSection .table,
+body.dark-mode #isiSendiriSection .table {
+    background-color: #4e4e4e !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode #exampleSection .table th,
+body.dark-mode #exampleSection .table td,
+body.dark-mode #isiSendiriSection .table th,
+body.dark-mode #isiSendiriSection .table td {
+    color: #fffdfd !important;
+}
+
+body.dark-mode #isiSendiriSection .form-control {
+    background-color: #333 !important;
+    color: #fffbfb !important;
+    border: 1px solid #555 !important;
+}
+
+body.dark-mode #isiSendiriSection .form-control::placeholder {
+    color: #cdcbcb !important;
+}
+
+body.dark-mode .btn {
+    background-color: #4e4e4e !important;
+    color: #ffffff !important;
+    border: 1px solid #555 !important;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #0d6efd !important;
+    border: 1px solid #0d6efd !important;
+}
